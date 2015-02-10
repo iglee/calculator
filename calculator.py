@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import sys
 
 def addition(a, b):
@@ -8,6 +7,8 @@ def addition(a, b):
 def division(a, b):
 	return a / b
 
+def subtraction(a, b):
+	return a - b
 
 def main():
 	# Parse the command line
@@ -23,6 +24,8 @@ def main():
 		print addition(a, b)
 	elif op == '/':
 		print division(a, b)
+	elif op == '-':
+		print subtraction(a, b)
 	else:
 		print 'Unknown operator', op
 		return -1
