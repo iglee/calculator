@@ -10,6 +10,9 @@ def division(a, b):
 def subtraction(a, b):
 	return a - b
 
+def multiplication(a, b):
+	return a * b
+
 def main():
 	# Parse the command line
 	try:
