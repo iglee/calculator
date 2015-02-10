@@ -29,6 +29,8 @@ def main():
 		print division(a, b)
 	elif op == '-':
 		print subtraction(a, b)
+	elif op == '*':
+		print multiplication(a, b)
 	else:
 		print 'Unknown operator', op
 		return -1
