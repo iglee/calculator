@@ -10,6 +10,9 @@ def division(a, b):
 def subtraction(a, b):
 	return a - b
 
+def multiplication(a, b):
+	return a * b
+
 def main():
 	# Parse the command line
 	try:
@@ -26,6 +29,8 @@ def main():
 		print division(a, b)
 	elif op == '-':
 		print subtraction(a, b)
+	elif op == '*':
+		print multiplication(a, b)
 	else:
 		print 'Unknown operator', op
 		return -1
